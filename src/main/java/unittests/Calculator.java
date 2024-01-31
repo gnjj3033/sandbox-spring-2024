@@ -1,4 +1,4 @@
-package org.example.sandbox.unittests;
+package unittests;
 
 import java.util.Arrays;
 
@@ -8,10 +8,9 @@ public class Calculator {
         return a + b;
     }
 
-    // vararg
-    public int add(int a, int... b) {
-        return a + Arrays.stream(b).sum();
-    }
+    //vararg
+    public int add(int a, int... b){
+        return a + Arrays.stream(b).sum();    }
 
     public int subtract(int a, int b) {
         return a - b;
