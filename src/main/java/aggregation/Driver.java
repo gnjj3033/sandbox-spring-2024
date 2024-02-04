@@ -10,7 +10,6 @@ public class Driver {
 
         Salad anotherSalad = new Salad(); // composition
         System.out.println(anotherSalad);
-
         System.out.println(amountOfLettuce);
     }
 }
